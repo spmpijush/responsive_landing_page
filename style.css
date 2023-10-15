@@ -1,0 +1,159 @@
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 450px;
+}
+
+.top_left {
+    margin-top: 20%
+}
+
+.top_section {
+    background-color: rgb(205, 216, 255);
+    padding: 50px;
+    margin-top: 50px;
+}
+
+.our_service_box_design {
+    border: 1px solid rgb(125, 171, 224);
+    height: 200px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.company_details {
+    background-color: rgb(205, 216, 255);
+    padding: 50px 0 50px 0;
+    color: black;
+}
+
+.company_details h4,
+.company_details h3 {
+    color: rgb(0, 0, 0);
+}
+
+a {
+    text-decoration: none;
+}
+
+.contact_us_action_box {
+    border: 1px solid rgb(131, 126, 126);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.side_pop_up_box {
+    width: 0px;
+    height: 500px;
+    /* border: 1px solid rgb(186, 13, 13); */
+    position: fixed;
+    top: 20%;
+    right: 0;
+    background-color: #3b6ded;
+    border-radius: 10px 0 0 10px;
+
+}
+
+.pop_up_button {
+    transform: rotate(90deg);
+    /* margin-top: 50% !important; */
+    position: absolute;
+    bottom: 50%;
+    margin-left: -50px;
+}
+
+#form_open_1 {
+    border-radius: 30px;
+    background-color: rgb(159, 180, 255);
+    margin: 0 5px;
+    color: white;
+    border: none;
+}
+
+#form_open_1:hover {
+    background-color: rgb(123, 151, 255);
+}
+
+#form_open_2 {
+    border-radius: 30px;
+    background-color: rgb(91, 126, 255);
+    margin: 0 5px;
+    color: white;
+    border: none;
+}
+
+#form_open_2:hover {
+    background-color: rgb(139, 163, 250);
+}
+
+.navbar-brand {
+    color: rgb(74, 111, 246) !important;
+    font-weight: bold !important;
+
+}
+
+.nav-link:hover {
+    color: rgb(0, 0, 0) !important;
+}
+
+
+
+
+
+/* CSS MEDIA QUERY    */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .top_section {
+        padding: 5px 5px 20px 5px;
+    }
+
+    .top_left {
+        margin-top: 5%
+    }
+
+    .carousel-item img {
+        width: 100%;
+        height: 250px;
+    }
+
+    .top_right {
+        margin-top: 20px;
+    }
+
+    .our_servises_right_side {
+        margin-top: 20px;
+    }
+
+    .com_gap {
+        margin: 20px 0;
+    }
+
+    .contact_us_action_box {
+        margin: 10px 0;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
